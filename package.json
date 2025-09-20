@@ -1,13 +1,1 @@
-{
-  "name": "ultrascram",
-  "version": "1.0.0",
-  "description": "A proxy service with Ultraviolet (web proxy) and Scramjet (stream proxy) options for Vercel deployment.",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vercel dev"
-  },
-  "dependencies": {
-    "@ultraviolet-proxy/ultraviolet": "^1.6.0",
-    "scramjet": "^4.37.0"
-  }
-}
+{"name":"ultrascram","version":"1.0.0","description":"A proxy service with Ultraviolet (web proxy) and Scramjet (stream proxy) options for Vercel deployment.","main":"api/proxy.js","scripts":{"dev":"vercel dev"},"dependencies":{"@ultraviolet-proxy/ultraviolet":"^1.6.0","scramjet":"^4.37.0"}}
